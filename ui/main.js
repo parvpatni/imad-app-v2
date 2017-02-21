@@ -11,7 +11,7 @@ button.onclick=function()
         {
             var counter=request.respopnseText;
             var span =document.getElementById('count');
-span.innerHTML=counter.toString();
+            span.innerHTML=counter.toString();
         }
     }
     };
